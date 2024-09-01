@@ -1,0 +1,86 @@
+/* src/components/Login.css */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #3c0f5f 50%, #44304e 50%);
+  }
+  
+  .login-container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .login-header {
+    background-color: #ff3366;
+    color: white;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .login-logo {
+    height: 30px;
+  }
+  
+  .login-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .login-content {
+    padding: 30px;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  
+  .google {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .facebook {
+    background-color: #1877f2;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+  
+  .other {
+    background-color: #eee;
+  }
+  
+  .login-footer {
+    font-size: 12px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .login-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  

@@ -1,0 +1,55 @@
+.trusted-markets-carousel {
+    margin-top: 30px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #333;
+  }
+  
+  .market-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    background-color: #fff;
+    position: relative;
+  }
+  
+  .market-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .market-discount {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: #ffc107; /* Color de fondo del descuento */
+    color: #000;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .market-info {
+    padding: 10px;
+  }
+  
+  .market-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .market-envio {
+    font-size: 12px;
+    color: #666;
+  }
+  

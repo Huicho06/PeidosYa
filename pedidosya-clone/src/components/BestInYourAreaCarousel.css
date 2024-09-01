@@ -1,0 +1,51 @@
+.best-in-your-area-carousel {
+    margin-top: 30px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #333;
+  }
+  
+  .area-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+    background-color: #fff;
+  }
+  
+  .area-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .area-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .area-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 5px;
+  }
+  
+  .area-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .area-rating {
+    font-size: 14px;
+    color: #ff9500; /* Color del rating */
+    font-weight: bold;
+  }
+  
