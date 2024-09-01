@@ -1,12 +1,12 @@
-import React from 'react';
-import Navbar from './Navbar';
-import CategoryCarousel from './CategoryCarousel';
-import PromotionBanner from './PromotionBanner';
-import SuggestionCarousel from './SuggestionCarousel';
-import TopOrdersCarousel from './TopOrdersCarousel';
-import BestInYourAreaCarousel from './BestInYourAreaCarousel'; 
-import HomeDeliveryCarousel from './HomeDeliveryCarousel';
-import Footer from './Footer';
+import Navbar from "../../JesusEspejo/Inicio/Navbar";
+import CategoryCarousel from "../../JesusEspejo/Inicio/CategoryCarousel";
+import PromotionBanner from "../../JesusEspejo/Inicio/PromotionBanner";
+import SuggestionCarousel from "../../JesusEspejo/Inicio/SuggestionCarousel";
+import TopOrdersCarousel from "../../JesusEspejo/Inicio/TopOrdersCarousel";
+import BestInYourAreaCarousel from "../../JesusEspejo/Inicio/BestInYourAreaCarousel";
+import HomeDeliveryCarousel from "../../JesusEspejo/Inicio/HomeDeliveryCarousel";
+import Footer from "../../JesusEspejo/Inicio/Footer";
+
 
 const promotions = [
   { title: 'Restaurantes', description: '¡Disfruta estas promociones!', image: '/src/assets/promo1.png' },

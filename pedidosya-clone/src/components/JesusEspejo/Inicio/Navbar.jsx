@@ -3,7 +3,7 @@ import { AppBar, Toolbar, IconButton, Typography, InputBase, Menu, MenuItem, Sel
 import SearchIcon from '@mui/icons-material/Search';
 import PersonIcon from '@mui/icons-material/Person';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import logo from '../assets/logo.png'; // Ruta del logotipo
+import logo from '../../../assets/logo.png'; 
 
 const Navbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);

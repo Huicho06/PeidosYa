@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './components/Home';
+import Home from './components/JesusEspejo/Inicio/Home';
 // Importa los estilos de slick-carousel
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
